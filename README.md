@@ -11,7 +11,10 @@ The application...
 
 # Release
 
-The current release is available on the right side of this page.
+Version v.1.19.0 is the latest.
+
+Mac: [https://github.com/ransbotham3/TrySailPilot/releases/download/v1.19.0/TrySail.dmg]
+Windows: (not available)
 
 # Quick overview
 ## External packages
