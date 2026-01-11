@@ -14,6 +14,7 @@ The application...
 Version v.1.19.0 is the latest.
 
 Mac: [https://github.com/ransbotham3/TrySailPilot/releases/download/v1.19.0/TrySail.dmg]
+
 Windows: (not available)
 
 # Quick overview
@@ -110,7 +111,7 @@ Markdown: If the selection includes markdown, execution starts after the last co
 Code: Code expands to include any indented lines above and below. Consider the example:
 
 ```python
-for i in range( 0, 10 ):
+for i in range( 10 ):
    print( "Test" )
    print( i )
 ```
