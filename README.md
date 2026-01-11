@@ -13,30 +13,24 @@ The application...
 
 Version v.1.19.0 is the latest.
 
+## Links
+
 Mac: [https://github.com/ransbotham3/TrySailPilot/releases/download/v1.19.0/TrySail.dmg]
 
-Windows: (not available)
+Windows: (not included in this release)
+
+## Mac instructions
+
+1. Download the dmg file.
+2. Double click on the dmg to open it.
+3. Double click on the TrySail application to run.
+
+## Windows instructions
+
+1. Download the executable file.
+2. Double click on the TrySail application to run.
 
 # Quick overview
-## External packages
-
-TrySail includes the following packages.
-
-- [x] psutil
-- [x] numpy
-- [x] scipy
-- [x] requests
-- [x] beautiful soup
-- [x] glpk
-- [x] pillow
-- [x] nltk
-- [x] pandas
-- [x] matplotlib
-- [x] seaborn
-- [x] plotnine
-- [x] plotly
-- [x] scikit-learn
-- [x] statsmodels
 
 ## Interface
 
@@ -123,15 +117,22 @@ Code executes in a background thread. You can stop execution with the 'Stop' but
 
 You can zoom in or out the editor.
 
-# Platforms
+## Development
 
--[x] Mac/Arm: Tested.
--[x] Mac/Intel: Tested.
--[x] Windows: Tested.
--[x] Linux: App should also work on Linux if we care, but we have not tested much.
--[ ] Tablets: We may support tablets in coming release.
+### External packages
 
-# Developing
+TrySail includes the following packages: psutil, numpy, scipy, requests, beautiful soup, glpk, pillow, nltk, pandas, matplotlib, seaborn, plotnine, plotly, scikit-learn, statsmodels.
+
+
+### Platforms
+
+[x] Mac/Arm: Tested.
+[x] Mac/Intel: Tested.
+[x] Windows: Tested.
+[x] Linux: App should also work on Linux if we care, but we have not tested much.
+[ ] Tablets: We may support tablets in coming release.
+
+### Developing
 
 After the pilot settles, we will make the source code openly available.
 
