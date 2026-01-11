@@ -123,15 +123,6 @@ You can zoom in or out the editor.
 
 TrySail includes the following packages: psutil, numpy, scipy, requests, beautiful soup, glpk, pillow, nltk, pandas, matplotlib, seaborn, plotnine, plotly, scikit-learn, statsmodels.
 
-
-### Platforms
-
-[x] Mac/Arm: Tested.
-[x] Mac/Intel: Tested.
-[x] Windows: Tested.
-[x] Linux: App should also work on Linux if we care, but we have not tested much.
-[ ] Tablets: We may support tablets in coming release.
-
 ### Developing
 
 After the pilot settles, we will make the source code openly available.
