@@ -21,8 +21,8 @@ Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.20/T
 
 ## Mac instructions
 
-1. Download the dmg file.
-2. Double click on the dmg to open it.
+1. Download and open the dmg file.
+2. Drag the TrySail icon to the Application folder.
 3. Double click on the TrySail application to run.
 
 ## Windows instructions
@@ -54,7 +54,7 @@ Individual lines are either markdown or code. By default, new lines are code.
 
 To switch a line between code and markdown, use the "Line Type" option on the Edit menu. Markdown lines show with an alternative, darker background.
 
-Markdown changes show immediately below the markdown. The raw markdown code is only visible while the editing cursor is in the markdown line.
+Markdown changes show immediately below the markdown. To edit the raw markdown code, select "Markdown Edit" from the menu while you have the markdown line selected.
 
 # Features so far
 
@@ -96,7 +96,7 @@ The application will also list recent files on the "Files" tab. (You can remove 
 
 When you select run with code highlighted, the app will execute the code you have highlighted. If you don't have anything highlighted, it will execute the current line.
 
-Unlike Jupyter and other tools, users do not have to work with cells. The editor figures out "cells" so that users can work with what they know about word processors / text editors without having to learn about cells (inserting, splitting, merging, etc.) or worry about splitting cells to see the output.
+Unlike Jupyter and other tools, users do not have to work with cells. The editor figures out "cells" so that users can work with what they know about word processors / text editors without having to learn about cells (inserting, splitting, merging, etc.) or worry about splitting cells to see the output. (There is no need for"get_ipython().ast_node_interactivity = 'all'" to see all the output.)
 
 When necessary, the app expands the selected or current line to include other lines when executing.
 
