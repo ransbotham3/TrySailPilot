@@ -17,7 +17,7 @@ Version v.0.1.33 is the latest.
 
 Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.33/TrySail.dmg
 
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.33/TrySail.exe (NOTE: This release is not signed.)
+Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.33/TrySail.exe 
 
 ## Mac instructions
 
