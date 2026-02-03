@@ -1,4 +1,4 @@
-# TrySail: Making Python easier for first time coders.
+# TrySail: Making learning Python easier.
 
 The **TrySail** project is a code editor, targeting Python learners with a reduced/simple set of features.
 
@@ -36,7 +36,7 @@ Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.33/T
 
 The top  has a code editor showing output inline between the lines of code when executed.
 
-The bottom left side shows the current memory; the right shows help.
+The bottom left side shows the current memory; the bottom right shows help.
 
 ## Basics
 
