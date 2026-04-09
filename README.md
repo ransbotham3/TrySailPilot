@@ -21,13 +21,13 @@ Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/T
 
 # Experimental Release
 
-Version v.0.1.44 is the latest release for evaluation.
+Version v.0.1.45 is the latest release for evaluation.
 
-The experimental release contains the embedded large language models (explanations, feedback, tutor), LaTeX support, enriched markdown, learning notebooks, data file previewer, code tracing, user interface experiements, favorite directories, slide mode, explanation show/hide, etc. Please send feedback!
+The experimental release contains the embedded large language models (explanations, feedback, tutor), LaTeX support, enriched markdown, learning notebooks, data file previewer, code tracing, user interface experiements, favorite directories, slide mode, explanation show/hide, unified icons, copying output, markdown/html/json/text editors, etc. Please send feedback!
 
 ## Links
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.44/TrySail.dmg
+Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.45/TrySail.dmg
 
 Windows: (We don't have a signed version yet; hang on!)
 
