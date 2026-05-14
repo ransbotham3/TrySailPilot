@@ -1,142 +1,247 @@
-# TrySail: Making learning Python easier.
+<p align="center">
+  <img src="iconTrySail.png" alt="TrySail" width="120"/>
+</p>
 
-The **TrySail** project is a code editor, targeting Python learners with a reduced/simple set of features.
+<h1 align="center">TrySail</h1>
 
-The application...
+<p align="center">
+  <strong>A code editor for Python learners.</strong><br>
+  <em>"Hello, World!" in under a minute, using only what beginners already know except code.</em>
+</p>
 
-- [x] Requires no installation of Python but runs Python (currently 3.11) code.
-- [x] Requires no installation of external packages.
-- [x] Runs on Windows and Mac.
-- [x] Avoids Terminal or Command Prompt.
+<p align="center">
+  <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
+  <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
+  <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python 3.11"/>
+  <img src="https://img.shields.io/badge/release-v0.1.45-orange" alt="Latest release"/>
+</p>
 
-# Student Release
+<p align="center">
+  <em>Developed by the <a href="https://www.bc.edu/bc-web/schools/carroll-school/sites/center-for-the-economics-of-ideas.html">Center for the Economics of Ideas</a><sup><a href="#about-the-center">†</a></sup> at the Boston College Carroll School of Management.</em>
+</p>
 
-Version v.0.1.37 is the latest release for use by students in class.
+<p align="center">
+  <img src="TrySail_Pythagorean.png" alt="TrySail showing inline output, live memory view, the embedded LLM tutor, and LaTeX-rendered markdown" width="820"/>
+</p>
 
-## Links
+---
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.dmg
-
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.exe 
-
-# Experimental Release
-
-Version v.0.1.45 is the latest release for evaluation.
-
-The experimental release contains the embedded large language models (explanations, feedback, tutor), LaTeX support, enriched markdown, learning notebooks, data file previewer, code tracing, user interface experiements, favorite directories, slide mode, explanation show/hide, unified icons, copying output, markdown/html/json/text editors, etc. Please send feedback!
-
-## Links
+## Download the latest release
 
 Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.45/TrySail.dmg
 
-Windows: (We don't have a signed version yet; hang on!)
+Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.exe
 
+---
 
-## Mac instructions
+## Contents
 
-1. Download and open the dmg file.
-2. Drag the TrySail icon to the Application folder.
-3. Double click on the TrySail application to run.
+- [Why TrySail exists](#why-trysail-exists)
+    - [Cyclic dependencies in learning](#cyclic-dependencies-in-learning)
+    - [The day-one trap](#the-day-one-trap)
+- [TrySail's answer](#trysails-answer)
+    - [Pilot results](#pilot-results)
+    - [How TrySail compares](#how-trysail-compares)
+- [Getting Started](#getting-started)
+    - [Install](#install)
+    - [First five minutes](#first-five-minutes)
+- [Key features](#key-features)
+    - [Tour: what's inside](#tour-whats-inside)
+    - [Packages included](#packages-included)
+- [Feedback](#feedback)
+- [Full feature list](#full-feature-list)
 
-## Windows instructions
+## Why TrySail exists
 
-1. Download the executable file.
-2. Double click on the TrySail application to run.
+### Cyclic dependencies in learning
 
-# Quick overview
+Some skills are cyclic; you need A to learn B, and B to learn A.
 
-## Interface
+- **Language:** reading needs vocabulary; vocabulary grows through reading.
+- **Biking:** balance needs motion; motion needs balance.
 
-The top  has a code editor showing output inline between the lines of code when executed.
+Without an outside push, beginners can't break in. Coding typically fits that cyclic pattern. Beginners need tools (Python, pip, terminal, IDE) to learn coding, and they need coding to learn the tools.
 
-The bottom left side shows the current memory; the bottom right shows help.
+### The day-one trap
 
-## Basics
+Before line 1 of Python, beginners typically must:
 
-Users can edit Python and Markdown.
+- **Download Python**, answering setup prompts they can't evaluate.
+- **Use a terminal**, pasting commands on faith.
+- **Install certificates**, without knowing what they are or why.
+- **Configure an IDE**, before they know Python is the language and the IDE is the tool.
+- **Install packages with `pip`**, without knowing what a package is.
 
-### Python
+Experienced developers gloss over these with "just run this." Beginners experience them as unintelligible magic, and learn that coding starts with doing things they don't understand.
 
-Select "run code" to run the line of code at the current position; the output display the result of the Python.
+## TrySail's answer
 
-If code execution changes the memory state, the changed memory values appear below the code in the editor window.
+Break the cycle. Give beginners a positive coding experience first, building only on what they already know.
+
+- **Mac & Windows app.** Standalone, no Python install, no package manager (pip/uv/conda), no terminal.
+- **Runs Python line by line.** Inline output and a live memory view.
+- **25+ packages built in**, including pandas, numpy, scikit-learn, statsmodels, matplotlib, seaborn, and plotly.
+- **Embedded LLM tutor (DPO-tuned).** Guides learning; doesn't write the code for the user.
+- **Uses `.ipynb` and `.py`.** Fits the file formats users will use later.
+- **LaTeX math, rich markdown, data previewer, slide mode** built in.
+
+### Pilot results
+
+An introductory coding course at Boston College (successfully!) piloted TrySail in Spring 2026. The original plan was to transition off TrySail mid-semester, but positive student experiences deferred the transition until the end of the semester.
+
+### How TrySail compares
+
+|                                | Jupyter / Anaconda      | Replit / Colab        | **TrySail**         |
+| ------------------------------ | ----------------------- | --------------------- | ------------------- |
+| Local install footprint        | Multi-GB                | None (cloud)          | **Single download** |
+| How to run                     | Start servers, browsers | Browser to URL, login | **Double click**    |
+| Internet required to use       | No                      | Yes                   | **No**              |
+| Terminal or package manager   | Often                   | No                    | **No**              |
+| Output between every line      | Cell-based              | Cell-based            | **Yes**             |
+| Always-visible memory view     | No (magics only)        | Limited               | **Yes**             |
+| Embedded learning tutor        | No                      | Some                  | **Yes (DPO-tuned)** |
+| Account / sign-in              | No                      | Yes                   | **No**              |
+
+## Getting Started
+
+### Install
+
+*(Binaries are signed and notarized.)*
+
+#### macOS
+
+1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.45/TrySail.dmg) and open it.
+2. Drag **TrySail** into your `Applications` folder.
+3. Double-click **TrySail** to launch. 
+
+#### Windows
+
+1. [Download `TrySail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.exe).
+2. Double-click to run.
+
+### First five minutes
+
+1. Launch TrySail.
+2. On the **Files** tab, open one of the built-in learning notebooks (e.g. `Learn_01_Expressions_and_Variables.ipynb`).
+3. Click anywhere on a line of code and press **Run Line**.
+4. Watch the output appear *between* lines, and watch the **Memory** panel on the lower-left update.
+5. In the **Tutor** panel, click **Explain my code** to see the embedded LLM walk through what just happened.
+
+That's the loop: read, run, see state, ask. No setup, no terminal, no pip/uv/conda.
+
+## Key features
+
+### Tour: what's inside
+
+#### The main editor
+
+Inline output and a live memory view, with the LLM tutor and Python help side-by-side:
+
+<p align="center">
+  <img src="TrySail_Pythagorean.png" alt="Editor with inline output, memory, tutor, and help" width="820"/>
+</p>
+
+#### Built-in learning content
+
+Learning notebooks (Strings, Booleans & Conditionals, Lists, Loops, Dictionaries, Functions, …) plus favorites and recent files:
+
+<p align="center">
+  <img src="TrySail_MainWindow.png" alt="Files tab with built-in learning notebooks and favorites" width="820"/>
+</p>
+
+#### Data previewer
+
+CSVs render as both raw text and a navigable table, with no copy-paste into Excel:
+
+<p align="center">
+  <img src="TrySail_DataPreviewer.png" alt="CSV data file previewer" width="820"/>
+</p>
+
+#### Analytics and ML, output inline
+
+Plots, regression results, and ML model output all render between the lines that produced them:
+
+<p align="center">
+  <img src="TrySail_MatplotLib.png" alt="Matplotlib streamplot inline" width="410"/>
+  <img src="TrySail_StatsModels.png" alt="Statsmodels OLS regression output inline" width="410"/>
+</p>
+
+<p align="center">
+  <img src="TrySail_Scikit.png" alt="Scikit-learn confusion matrix inline" width="820"/>
+</p>
+
+### Packages included
+
+`numpy`, `scipy`, `pandas`, `matplotlib`, `seaborn`, `plotnine`, `plotly`, `scikit-learn`, `statsmodels`, `nltk`, `beautifulsoup4`, `requests`, `pillow`, `psutil`, `glpk`.
+
+If a package your class needs isn't on this list, please [open an issue](https://github.com/ransbotham3/TrySailPilot/issues). The goal is to cover the standard intro-analytics and intro-ML stack out of the box.
+
+## Feedback
+
+### For instructors
+
+If you're teaching an introductory coding, analytics, or ML course and want to evaluate TrySail for your class, grab the [current release](#download-the-latest-release) at the top of this page. Let us know you are using it. We'd love to hear about your experiences.
+
+### Issues and bugs
+
+If something breaks, confuses a student, or doesn't fit your course, [open an issue](https://github.com/ransbotham3/TrySailPilot/issues). Feedback shapes the next release.
+
+---
+
+## Full feature list
+
+<details>
+<summary><strong>Click to expand</strong></summary>
+
+### File support
+
+- Opens `.ipynb` (Jupyter) or `.py` (including Jupytext-encoded).
+- Renders existing notebook output on open.
+- Markdown / HTML / JSON / plain-text editors.
+
+### Editing
+
+- Standard text-editor key navigation, find/replace, save / save as, zoom.
+- Syntax highlighting as you type.
+- Light and dark modes with multiple color themes (Preferences).
+- Pinned favorite files and a recent-files list.
+
+### Running code
+
+- **Run Line** runs the current line or the selected region.
+- **Automatic "cells":** the editor figures out logical blocks (continuous markdown, indented code) so users do not have to learn Jupyter's cell mental model until they are ready.
+- Code executes in a background thread; **Stop** for a graceful halt, **Kill** for stuck loops.
+- Inline output appears below the line that produced it **without** insane `get_ipython().ast_node_interactivity = 'all'` confusion.
+- The Memory pane shows variables as code creates and changes them.
 
 ### Markdown
 
-Individual lines are either markdown or code. By default, new lines are code. 
+- Each line is either code or markdown (toggle via Edit → Line Type).
+- Markdown renders immediately below the line; raw-edit via Markdown Edit.
+- LaTeX math support, enriched markdown, inline svg/jpg/png.
 
-To switch a line between code and markdown, use the "Line Type" option on the Edit menu. Markdown lines show with an alternative, darker background.
+### Data preview
 
-Markdown changes show immediately below the markdown. To edit the raw markdown code, select "Markdown Edit" from the menu while you have the markdown line selected.
+- Preview delimited files (csv, tab, etc.) or Excel (xlsx) documents.
+- Lightning fast.
+- Beginners can play with delimiters to see differences and learn.
 
-# Features so far
+### Other
 
-## Things the app will do:
+- Slide mode, code tracing.
+- Copy output, explanation show/hide.
 
-The app will...
+</details>
 
-###  Read files
+<details>
+<summary><strong>Roadmap notes</strong></summary>
 
-The app will open "ipynb" Jupyter notebook files, "py" raw Python files (including py files with Jupytext markdown encoding), and "md" markdown file. For Jupyter notebooks, it renders any existing output in the notebook.
+After the project settles, the source code will be made openly available.
 
-###  Edit files
+</details>
 
-You can edit code just like a plain, uncomplicated text editor. All the usual text editing key navigation works; the app support typical editing functions like find/replace, save/save as, zoom.
+---
 
-The app will highlight the syntax as you type.
+<a id="about-the-center"></a>
 
-The app supports normal (light) mode and dark mode with multiple color themes. You can change color themes under "Preferences".
-
-###  Demo files
-
-The app embeds some demo files, for example...
-
-- A Jupyter notebook with basic content.
-
-- A Python file.
-
-You can access the demo files from the list on the "Files" tab.
-
-### Favorite Files
-
-For files that you use frequently, you pin them to a list on the "Files" tab.
-
-### Recent Files
-
-The application will also list recent files on the "Files" tab. (You can remove files from the recent list.)
-
-###  Automatic "cells"
-
-When you select run with code highlighted, the app will execute the code you have highlighted. If you don't have anything highlighted, it will execute the current line.
-
-Unlike Jupyter and other tools, users do not have to work with cells. The editor figures out "cells" so that users can work with what they know about word processors / text editors without having to learn about cells (inserting, splitting, merging, etc.) or worry about splitting cells to see the output. (There is no need for"get_ipython().ast_node_interactivity = 'all'" to see all the output.)
-
-When necessary, the app expands the selected or current line to include other lines when executing.
-
-Markdown: If the selection includes markdown, execution starts after the last code line above and continues until the next code line. As a result, the app executes all continuous markdown. This blocking is important so that aspects like automatic "list numbering" make sense.
-
-Code: Code expands to include any indented lines above and below. Consider the example:
-
-```python
-for i in range( 10 ):
-   print( "Test" )
-   print( i )
-```
-Executing any of these lines requires the app to execute the other two; it does not make sense to execute one of those lines in isolation.
-
-Code executes in a background thread. You can stop execution with the 'Stop' button. If your code is stuck (like in a loop) and 'Stop' does not work, you can use the 'Kill' button to stop Python. Using 'Kill' leaves Python in an undetermined state because it was not able to gracefully stop Python; after using 'Kill', you likely have to restart.
-
-###  Zoom in or out
-
-You can zoom in or out the editor.
-
-## Development
-
-### External packages
-
-TrySail includes the following packages: psutil, numpy, scipy, requests, beautiful soup, glpk, pillow, nltk, pandas, matplotlib, seaborn, plotnine, plotly, scikit-learn, statsmodels.
-
-### Developing
-
-After the pilot settles, we will make the source code openly available.
-
+<sub><strong>† About the Center for the Economics of Ideas.</strong> The Center for the Economics of Ideas is a research center at Boston College's Carroll School of Management, launched in 2023. Its founding director is Paul Romer, the Seidner University Professor and 2018 Nobel laureate in economics recognized for demonstrating how economic forces govern firms' willingness to produce new ideas and innovations; at BC, Romer teaches "Digital Self Defense With Python" and focuses on digital security, authenticity, and integrity. He is joined by Sam Ransbotham, Professor of Business Analytics and the Mastrocola Dean's Faculty Fellow, whose work centers on machine learning and AI in business. The Center's three focus areas (communicating ideas, digital authenticity, and the promotion of open collaboration) together aim to develop tools that combine prose with code, certify the integrity of digital files for authors and publishers, and safeguard the economics of ideas in the digital age.</sub>
