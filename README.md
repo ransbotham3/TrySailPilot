@@ -12,8 +12,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
   <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
-  <img src="https://img.shields.io/badge/Python-3.11-blue" alt="Python 3.11"/>
-  <img src="https://img.shields.io/badge/release-v0.1.45-orange" alt="Latest release"/>
+  <img src="https://img.shields.io/badge/Python-3.14-blue" alt="Python 3.14"/>
+  <img src="https://img.shields.io/badge/release-v0.2.1-orange" alt="Latest release"/>
 </p>
 
 <p align="center">
@@ -28,9 +28,9 @@
 
 ## Download the latest release
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.45/TrySail.dmg
+Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.1/TrySail.dmg
 
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.exe
+Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.1/TrySail.exe
 
 ---
 
@@ -96,7 +96,7 @@ An introductory coding course at Boston College (successfully!) piloted TrySail 
 | Local install footprint        | Multi-GB                | None (cloud)          | **Single download** |
 | How to run                     | Start servers, browsers | Browser to URL, login | **Double click**    |
 | Internet required to use       | No                      | Yes                   | **No**              |
-| Terminal or package manager   | Often                   | No                    | **No**              |
+| Terminal or package manager    | Often                   | No                    | **No**              |
 | Output between every line      | Cell-based              | Cell-based            | **Yes**             |
 | Always-visible memory view     | No (magics only)        | Limited               | **Yes**             |
 | Embedded learning tutor        | No                      | Some                  | **Yes (DPO-tuned)** |
@@ -110,13 +110,13 @@ An introductory coding course at Boston College (successfully!) piloted TrySail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.45/TrySail.dmg) and open it.
+1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.1/TrySail.dmg) and open it.
 2. Drag **TrySail** into your `Applications` folder.
 3. Double-click **TrySail** to launch. 
 
 #### Windows
 
-1. [Download `TrySail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.1.37/TrySail.exe).
+1. [Download `TrySail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.1/TrySail.exe).
 2. Double-click to run.
 
 ### First five minutes
