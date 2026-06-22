@@ -30,11 +30,15 @@
 
 ### Trysail
 
+The complete Python code editor.
+
 Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.dmg
 
 Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.exe
 
-### Sextant (a standalone file previewer without Python)
+### Sextant
+
+A standalone file previewer (subset of Trysail) without Python
 
 Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Sextant.dmg
 
@@ -235,10 +239,18 @@ If something breaks, confuses a student, or doesn't fit your course, [open an is
 - Lightning fast.
 - Beginners can play with delimiters to see differences and learn.
 
+### Quick look
+
+- On MacOS, Trysail provides Quick Look services in Finder to show Jupyter Notebooks and source code with highlighting.
+
 ### Other
 
 - Slide mode, code tracing.
 - Copy output, explanation show/hide.
+
+### Sextant
+
+If you only need to preview files (like Jupyter Notebooks, markdown, source code, etc.) then the Sextant app is a subset of Trysail without Python.
 
 </details>
 
