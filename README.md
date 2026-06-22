@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="iconTrySail.png" alt="TrySail" width="120"/>
+  <img src="iconTrySail.png" alt="Trysail" width="120"/>
 </p>
 
-<h1 align="center">TrySail</h1>
+<h1 align="center">Trysail</h1>
 
 <p align="center">
   <strong>A code editor for Python learners.</strong><br>
@@ -21,27 +21,36 @@
 </p>
 
 <p align="center">
-  <img src="TrySail_Pythagorean.png" alt="TrySail showing inline output, live memory view, the embedded LLM tutor, and LaTeX-rendered markdown" width="820"/>
+  <img src="TrySail_Pythagorean.png" alt="Trysail showing inline output, live memory view, the embedded LLM tutor, and LaTeX-rendered markdown" width="820"/>
 </p>
 
 ---
 
 ## Download the latest release
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/TrySail.dmg
+### Trysail
 
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/TrySail.exe
+Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.dmg
+
+Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.exe
+
+### Sextant (a standalone file previewer without Python)
+
+Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Sextant.dmg
+
+Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Sextant.exe
+
 
 ---
 
 ## Contents
 
-- [Why TrySail exists](#why-trysail-exists)
+- [Why Trysail exists](#why-trysail-exists)
     - [Cyclic dependencies in learning](#cyclic-dependencies-in-learning)
     - [The day-one trap](#the-day-one-trap)
-- [TrySail's answer](#trysails-answer)
+- [Trysail's answer](#trysails-answer)
     - [Pilot results](#pilot-results)
-    - [How TrySail compares](#how-trysail-compares)
+    - [How Trysail compares](#how-trysail-compares)
 - [Getting Started](#getting-started)
     - [Install](#install)
     - [First five minutes](#first-five-minutes)
@@ -51,7 +60,7 @@ Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Tr
 - [Feedback](#feedback)
 - [Full feature list](#full-feature-list)
 
-## Why TrySail exists
+## Why Trysail exists
 
 ### Cyclic dependencies in learning
 
@@ -74,7 +83,7 @@ Before line 1 of Python, beginners typically must:
 
 Experienced developers gloss over these with "just run this." Beginners experience them as unintelligible magic, and learn that coding starts with doing things they don't understand.
 
-## TrySail's answer
+## Trysail's answer
 
 Break the cycle. Give beginners a positive coding experience first, building only on what they already know.
 
@@ -87,11 +96,11 @@ Break the cycle. Give beginners a positive coding experience first, building onl
 
 ### Pilot results
 
-An introductory coding course at Boston College (successfully!) piloted TrySail in Spring 2026. The original plan was to transition off TrySail mid-semester, but positive student experiences deferred the transition until the end of the semester.
+An introductory coding course at Boston College (successfully!) piloted Trysail in Spring 2026. The original plan was to transition off Trysail mid-semester, but positive student experiences deferred the transition until the end of the semester.
 
-### How TrySail compares
+### How Trysail compares
 
-|                                | Jupyter / Anaconda      | Replit / Colab        | **TrySail**         |
+|                                | Jupyter / Anaconda      | Replit / Colab        | **Trysail**         |
 | ------------------------------ | ----------------------- | --------------------- | ------------------- |
 | Local install footprint        | Multi-GB                | None (cloud)          | **Single download** |
 | How to run                     | Start servers, browsers | Browser to URL, login | **Double click**    |
@@ -110,18 +119,18 @@ An introductory coding course at Boston College (successfully!) piloted TrySail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/TrySail.dmg) and open it.
-2. Drag **TrySail** into your `Applications` folder.
-3. Double-click **TrySail** to launch. 
+1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.dmg) and open it.
+2. Drag **Trysail** into your `Applications` folder.
+3. Double-click **Trysail** to launch. 
 
 #### Windows
 
-1. [Download `TrySail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/TrySail.exe).
+1. [Download `Trysail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.exe).
 2. Double-click to run.
 
 ### First five minutes
 
-1. Launch TrySail.
+1. Launch Trysail.
 2. On the **Files** tab, open one of the built-in learning notebooks (e.g. `Learn_01_Expressions_and_Variables.ipynb`).
 3. Click anywhere on a line of code and press **Run Line**.
 4. Watch the output appear *between* lines, and watch the **Memory** panel on the lower-left update.
