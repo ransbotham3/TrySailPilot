@@ -32,17 +32,17 @@
 
 The complete Python code editor.
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.dmg
 
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.exe
 
 ### Sextant
 
 A standalone file previewer (subset of Trysail) without Python
 
-Mac: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Sextant.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Sextant.dmg
 
-Windows: https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Sextant.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Sextant.exe
 
 
 ---
@@ -123,13 +123,13 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.dmg) and open it.
+1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.dmg) and open it.
 2. Drag **Trysail** into your `Applications` folder.
 3. Double-click **Trysail** to launch. 
 
 #### Windows
 
-1. [Download `Trysail.exe`](https://github.com/ransbotham3/TrySailPilot/releases/download/v0.2.7/Trysail.exe).
+1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.exe).
 2. Double-click to run.
 
 ### First five minutes
@@ -187,7 +187,7 @@ Plots, regression results, and ML model output all render between the lines that
 
 `numpy`, `scipy`, `pandas`, `matplotlib`, `seaborn`, `plotnine`, `plotly`, `scikit-learn`, `statsmodels`, `nltk`, `beautifulsoup4`, `requests`, `pillow`, `psutil`, `glpk`.
 
-If a package your class needs isn't on this list, please [open an issue](https://github.com/ransbotham3/TrySailPilot/issues). The goal is to cover the standard intro-analytics and intro-ML stack out of the box.
+If a package your class needs isn't on this list, please [open an issue](https://github.com/ransbotham3/MainsailPilots/issues). The goal is to cover the standard intro-analytics and intro-ML stack out of the box.
 
 ## Feedback
 
@@ -197,7 +197,7 @@ If you're teaching an introductory coding, analytics, or ML course and want to e
 
 ### Issues and bugs
 
-If something breaks, confuses a student, or doesn't fit your course, [open an issue](https://github.com/ransbotham3/TrySailPilot/issues). Feedback shapes the next release.
+If something breaks, confuses a student, or doesn't fit your course, [open an issue](https://github.com/ransbotham3/MainsailPilots/issues). Feedback shapes the next release.
 
 ---
 
