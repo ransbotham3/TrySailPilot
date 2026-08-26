@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
   <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
   <img src="https://img.shields.io/badge/Python-3.14-blue" alt="Python 3.14"/>
-  <img src="https://img.shields.io/badge/release-v0.2.15-orange" alt="Latest release"/>
+  <img src="https://img.shields.io/badge/release-v0.2.16-orange" alt="Latest release"/>
 </p>
 
 <p align="center">
@@ -26,23 +26,25 @@
 
 ---
 
+<a id="download"></a>
+
 ## Download the latest release
 
 ### Trysail
 
 The complete Python code editor.
 
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.exe
 
 ### Sextant
 
 A standalone file previewer (subset of Trysail) without Python
 
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Sextant.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Sextant.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Sextant.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Sextant.exe
 
 
 ---
@@ -123,13 +125,13 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.dmg) and open it.
+1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.dmg) and open it.
 2. Drag **Trysail** into your `Applications` folder.
 3. Double-click **Trysail** to launch. 
 
 #### Windows
 
-1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.exe).
+1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.exe).
 2. Double-click to run.
 
 ### First five minutes
@@ -193,7 +195,7 @@ If a package your class needs isn't on this list, please [open an issue](https:/
 
 ### For instructors
 
-If you're teaching an introductory coding, analytics, or ML course and want to evaluate TrySail for your class, grab the [current release](#download-the-latest-release) at the top of this page. Let us know you are using it. We'd love to hear about your experiences.
+If you're teaching an introductory coding, analytics, or ML course and want to evaluate Trysail for your class, grab the [current release](#download) at the top of this page. Let us know you are using it. We'd love to hear about your experiences.
 
 ### Issues and bugs
 
