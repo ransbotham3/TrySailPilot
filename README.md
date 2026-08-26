@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
   <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
   <img src="https://img.shields.io/badge/Python-3.14-blue" alt="Python 3.14"/>
-  <img src="https://img.shields.io/badge/release-v0.2.7-orange" alt="Latest release"/>
+  <img src="https://img.shields.io/badge/release-v0.2.15-orange" alt="Latest release"/>
 </p>
 
 <p align="center">
@@ -32,17 +32,17 @@
 
 The complete Python code editor.
 
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.exe
 
 ### Sextant
 
 A standalone file previewer (subset of Trysail) without Python
 
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Sextant.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Sextant.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Sextant.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Sextant.exe
 
 
 ---
@@ -123,13 +123,13 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.dmg) and open it.
+1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.dmg) and open it.
 2. Drag **Trysail** into your `Applications` folder.
 3. Double-click **Trysail** to launch. 
 
 #### Windows
 
-1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.7/Trysail.exe).
+1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.15/Trysail.exe).
 2. Double-click to run.
 
 ### First five minutes
