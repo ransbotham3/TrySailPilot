@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="iconTrySail.png" alt="Trysail" width="120"/>
+  <img src="iconTrysail.png" alt="Trysail" width="120"/>
 </p>
 
 <h1 align="center">Trysail</h1>
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="TrySail_Pythagorean.png" alt="Trysail showing inline output, live memory view, the embedded LLM tutor, and LaTeX-rendered markdown" width="820"/>
+  <img src="Trysail_Pythagorean.png" alt="Trysail showing inline output, live memory view, the embedded LLM tutor, and LaTeX-rendered markdown" width="820"/>
 </p>
 
 ---
@@ -153,7 +153,7 @@ That's the loop: read, run, see state, ask. No setup, no terminal, no pip/uv/con
 Inline output and a live memory view, with the LLM tutor and Python help side-by-side:
 
 <p align="center">
-  <img src="TrySail_Pythagorean.png" alt="Editor with inline output, memory, tutor, and help" width="820"/>
+  <img src="Trysail_Pythagorean.png" alt="Editor with inline output, memory, tutor, and help" width="820"/>
 </p>
 
 #### Built-in learning content
@@ -161,7 +161,7 @@ Inline output and a live memory view, with the LLM tutor and Python help side-by
 Learning notebooks (Strings, Booleans & Conditionals, Lists, Loops, Dictionaries, Functions, …) plus favorites and recent files:
 
 <p align="center">
-  <img src="TrySail_MainWindow.png" alt="Files tab with built-in learning notebooks and favorites" width="820"/>
+  <img src="Trysail_MainWindow.png" alt="Files tab with built-in learning notebooks and favorites" width="820"/>
 </p>
 
 #### Data previewer
@@ -169,7 +169,7 @@ Learning notebooks (Strings, Booleans & Conditionals, Lists, Loops, Dictionaries
 CSVs render as both raw text and a navigable table, with no copy-paste into Excel:
 
 <p align="center">
-  <img src="TrySail_DataPreviewer.png" alt="CSV data file previewer" width="820"/>
+  <img src="Trysail_DataPreviewer.png" alt="CSV data file previewer" width="820"/>
 </p>
 
 #### Analytics and ML, output inline
@@ -177,12 +177,12 @@ CSVs render as both raw text and a navigable table, with no copy-paste into Exce
 Plots, regression results, and ML model output all render between the lines that produced them:
 
 <p align="center">
-  <img src="TrySail_MatplotLib.png" alt="Matplotlib streamplot inline" width="410"/>
-  <img src="TrySail_StatsModels.png" alt="Statsmodels OLS regression output inline" width="410"/>
+  <img src="Trysail_MatplotLib.png" alt="Matplotlib streamplot inline" width="410"/>
+  <img src="Trysail_StatsModels.png" alt="Statsmodels OLS regression output inline" width="410"/>
 </p>
 
 <p align="center">
-  <img src="TrySail_Scikit.png" alt="Scikit-learn confusion matrix inline" width="820"/>
+  <img src="Trysail_Scikit.png" alt="Scikit-learn confusion matrix inline" width="820"/>
 </p>
 
 ### Packages included
