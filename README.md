@@ -104,16 +104,16 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 ### How Trysail compares
 
-|                                | Jupyter / Anaconda      | Replit / Colab        | **Trysail**         |
-| ------------------------------ | ----------------------- | --------------------- | ------------------- |
-| Local install footprint        | Multi-GB                | None (cloud)          | **Single download** |
-| How to run                     | Start servers, browsers | Browser to URL, login | **Double click**    |
-| Internet required to use       | No                      | Yes                   | **No**              |
-| Terminal or package manager    | Often                   | No                    | **No**              |
-| Output between every line      | Cell-based              | Cell-based            | **Yes**             |
-| Always-visible memory view     | No (magics only)        | Limited               | **Yes**             |
-| Embedded learning tutor        | No                      | Some                  | **Yes (DPO-tuned)** |
-| Account / sign-in              | No                      | Yes                   | **No**              |
+|                             | Jupyter / Anaconda            | Replit / Colab        | **Trysail**         |
+| --------------------------- | ----------------------------- | --------------------- | ------------------- |
+| Local install footprint     | Multi-GB                      | None (cloud)          | **Single download** |
+| How to run                  | Server from terminal, browser | Browser to URL, login | **Double click**    |
+| Internet required to use    | No                            | Yes                   | **No**              |
+| Terminal or package manager | Often                         | No                    | **No**              |
+| Output between every line   | Cell-based                    | Cell-based            | **Always**          |
+| Always-visible memory view  | No (magics only)              | Limited               | **Yes**             |
+| Embedded learning tutor     | No                            | Some                  | **Yes (DPO-tuned)** |
+| Account / sign-in           | No                            | Yes                   | **No**              |
 
 ## Getting Started
 
