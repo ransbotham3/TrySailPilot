@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
   <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
   <img src="https://img.shields.io/badge/Python-3.14-blue" alt="Python 3.14"/>
-  <img src="https://img.shields.io/badge/release-v0.2.16-orange" alt="Latest release"/>
+  <img src="https://img.shields.io/github/v/release/ransbotham3/MainsailPilots?color=orange&label=release" alt="Latest release"/>
 </p>
 
 <p align="center">
@@ -34,17 +34,9 @@
 
 The complete Python code editor.
 
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.dmg
+Mac: https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.exe
-
-### Sextant
-
-A standalone file previewer (subset of Trysail) without Python
-
-Mac: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Sextant.dmg
-
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Sextant.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.exe
 
 
 ---
@@ -125,13 +117,13 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 #### macOS
 
-1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.dmg) and open it.
+1. [Download the `.dmg`](https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.dmg) and open it.
 2. Drag **Trysail** into your `Applications` folder.
 3. Double-click **Trysail** to launch. 
 
 #### Windows
 
-1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/v0.2.16/Trysail.exe).
+1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.exe).
 2. Double-click to run.
 
 ### First five minutes
@@ -249,10 +241,6 @@ If something breaks, confuses a student, or doesn't fit your course, [open an is
 
 - Slide mode, code tracing.
 - Copy output, explanation show/hide.
-
-### Sextant
-
-If you only need to preview files (like Jupyter Notebooks, markdown, source code, etc.) then the Sextant app is a subset of Trysail without Python.
 
 </details>
 
