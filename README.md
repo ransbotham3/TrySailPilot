@@ -36,7 +36,7 @@ The complete Python code editor.
 
 Mac: https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.dmg
 
-Windows: https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.exe
+Windows: https://github.com/ransbotham3/MainsailPilots/releases/download/setup/TrysailSetup.exe
 
 
 ---
@@ -123,7 +123,7 @@ An introductory coding course at Boston College (successfully!) piloted Trysail 
 
 #### Windows
 
-1. [Download `Trysail.exe`](https://github.com/ransbotham3/MainsailPilots/releases/latest/download/Trysail.exe).
+1. [Download `TrysailSetup.exe`](https://github.com/ransbotham3/MainsailPilots/releases/download/setup/TrysailSetup.exe).
 2. Double-click to run.
 
 ### First five minutes
