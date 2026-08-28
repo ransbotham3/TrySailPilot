@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/macOS-supported-success" alt="macOS"/>
   <img src="https://img.shields.io/badge/Windows-supported-success" alt="Windows"/>
   <img src="https://img.shields.io/badge/Python-3.14-blue" alt="Python 3.14"/>
-  <img src="https://img.shields.io/github/v/release/ransbotham3/MainsailPilots?color=orange&label=release" alt="Latest release"/>
+  <img src="https://img.shields.io/github/v/release/ransbotham3/MainsailPilots?sort=semver&color=orange&label=release" alt="Latest release"/>
 </p>
 
 <p align="center">
